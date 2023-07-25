@@ -51,4 +51,3 @@ class LIFOCache(BaseCaching):
             _type_: None if unsuccessful else data at key
         """
         return self.cache_data.get(key)
-

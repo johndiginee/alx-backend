@@ -52,5 +52,4 @@ class LRUCache(BaseCaching):
             self.stack.append(key)
             self.stack.remove(key)
 
-        return self.cache_data.get(key
-
+        return self.cache_data.get(key)

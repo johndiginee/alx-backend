@@ -58,4 +58,3 @@ class MRUCache(BaseCaching):
         del self.stack[first_index_of_key]
 
         return self.cache_data.get(key)
-
